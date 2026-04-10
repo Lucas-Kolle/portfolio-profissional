@@ -4,3 +4,40 @@
     box-sizing: border-box;
 }
 
+header{
+    display: flex;
+    height: 15vh;
+    background-color: #D7263D;
+    border: 2px solid #821717;
+    align-items: center; /*alinha os itens verticalmente*/
+    justify-content: space-between;
+    gap: 10px;
+}
+
+header p{
+    font-size: 20px;
+    color: #E6EDF3;
+    padding-left: 30px;
+}
+
+header div{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    padding-right: 30px;
+}
+
+header nav{
+    color: #E6EDF3;
+    font-size: 20px;
+    border: 5px solid #D7263D;
+    border-radius: 10px;
+    
+}
+
+header nav:hover{
+    border: 5px solid #A61B2B;
+    border-radius: 10px;
+    background-color: #A61B2B;
+    transition: 0.5s;
+}
