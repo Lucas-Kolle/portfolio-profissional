@@ -11,6 +11,8 @@ header{
     align-items: center; /*alinha os itens verticalmente*/
     justify-content: space-between;
     gap: 10px;
+    position: fixed;
+    width: 100%;
 }
 
 header p{
@@ -40,9 +42,10 @@ header nav a:hover{
 }
 
 .home{
+    padding-top: 15vh;
     display: flex;
     flex-direction: column;
-    height: 85vh;
+    height: 100vh;
     background-color:brown;
     align-items: center;
     gap: 30px;
@@ -90,4 +93,8 @@ header nav a:hover{
 .logos img{
     height: 8vh;
     width:auto;
+}
+
+.sobre{
+    height: 100vh;
 }
