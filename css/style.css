@@ -1,0 +1,93 @@
+:root{
+    --primary-color:#D7263D;
+    --secundary-color:#0B0F14;
+}
+
+header{
+    display: flex;
+    height: 15vh;
+    background-color: #D7263D;
+    border: 2px solid #821717;
+    align-items: center; /*alinha os itens verticalmente*/
+    justify-content: space-between;
+    gap: 10px;
+}
+
+header p{
+    font-size: 20px;
+    color: #E6EDF3;
+    padding-left: 30px;
+}
+
+header nav{
+    padding-right: 30px;
+}
+
+header nav a{
+    font-size: 20px;
+    margin: 8px;
+    text-decoration: none;
+    color: #E6EDF3;
+    border: 5px solid var(--primary-color);
+    background-color: var(--primary-color);
+}
+
+header nav a:hover{
+    border: 5px solid blue;
+    border-radius: 10px;
+    background-color: blue;
+    transition: 0.3s;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    background-color:brown;
+    align-items: center;
+    gap: 30px;
+}
+
+.home h2{
+    font-size: 60px;
+    padding-top: 30px;
+}
+
+.home p{
+    font-size: 30px;
+    width: 50vw;
+    text-align: center;
+    color: white;
+}
+
+.meu-trabalho{
+    background-color: antiquewhite;
+    height: 12vh;
+    width: 17vw;
+    border: 2px solid blue;
+    border-radius: 15px;
+}
+
+.entre-contato{
+    background-color: antiquewhite;
+    height: 12vh;
+    width: 17vw;
+    border: 2px solid blue;
+    border-radius: 15px;
+}
+
+.entre-contato:hover{
+    color: yellow;
+    background-color:blue;
+    transition: 0.2s;
+}
+
+.logos{
+    display: flex;
+    gap: 20px;
+}
+
+.logos img{
+    height: 8vh;
+    width:auto;
+}
