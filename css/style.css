@@ -205,3 +205,8 @@ header nav a:hover{
     background-color: rgb(249, 232, 211);
     transition: 0.3s;
 }
+
+.projetos{
+    height: 100vh;
+    background-color: #9e192a;
+}
