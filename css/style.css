@@ -163,3 +163,7 @@ header nav a:hover{
 .soft-skills div p{
     margin-left: 8px;
 }
+
+.habilidades{
+    height: 100vh;
+}
