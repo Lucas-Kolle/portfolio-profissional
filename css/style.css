@@ -198,6 +198,8 @@ header nav a:hover{
     background-color: bisque;
     border: 2px solid bisque;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .habilidade-tecnicas div:hover{
@@ -206,7 +208,48 @@ header nav a:hover{
     transition: 0.3s;
 }
 
+.habilidade-tecnicas div img{
+    height: 8vh;
+    width: 8vw;
+}
+
 .projetos{
     height: 100vh;
     background-color: #9e192a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projetos h3{
+    padding-top: 20vh;
+    font-size: 8vh;
+    text-align: center;
+}
+
+.projetos p{
+    text-align: center;
+    font-size: 3.8vh;
+    width: 50vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.projetos-destaque{
+    background-color: aliceblue;
+}
+
+footer{
+    height: 20vh;
+    display: flex;
+    justify-content:space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+}
+
+footer nav a{
+    text-decoration: none;
+    color: black;
+    margin: 2px;
 }
