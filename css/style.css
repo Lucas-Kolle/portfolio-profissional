@@ -165,5 +165,43 @@ header nav a:hover{
 }
 
 .habilidades{
-    height: 100vh;
+    height: 135vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a11e2f;
+}
+
+.habilidades h3{
+    padding-top: 20vh;
+    font-size: 7vh;
+}
+
+.habilidades p{
+    padding-top: 3vh;
+    width: 60vw;
+    text-align: center;
+    font-size: 3.4vh;
+}
+
+.habilidade-tecnicas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7vh;
+    padding-top: 5vh;
+    padding-left: 15vh;
+}
+
+.habilidade-tecnicas div{
+    height: 30vh;
+    width: 15vw;
+    background-color: bisque;
+    border: 2px solid bisque;
+    border-radius: 10px;
+}
+
+.habilidade-tecnicas div:hover{
+    border: 2px solid blue;
+    background-color: rgb(249, 232, 211);
+    transition: 0.3s;
 }
