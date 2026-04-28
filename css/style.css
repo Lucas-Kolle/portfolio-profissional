@@ -102,4 +102,64 @@ header nav a:hover{
 
 .sobre{
     height: 100vh;
+    background-color: rgb(145, 19, 19);
+}
+
+.sobre h3{
+    text-align: center;
+    padding-top: 20vh;
+    font-size: 8vh;
+}
+
+.sobre-mim{
+    display: flex;
+    padding-top: 8vh;
+}
+
+.descricao-pessoal{
+    background-color: antiquewhite;
+    width: 50vw;
+}
+
+.descricao-pessoal h4{
+    text-align: center;
+    font-size: 5vh;
+}
+
+.descricao-pessoal p{
+    padding-top: 5vh;
+    font-size: 3.5vh;
+    margin-left: 15px;
+}
+
+.skills{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills h4{
+    text-align: center;
+    font-size: 5vh;
+}
+
+.soft-skills{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5vh;
+    justify-content: center;
+    padding-top: 5vh;
+}
+
+.soft-skills div{
+    display: flex;
+    width: 22vw;
+    height: 9vh;
+    border-radius: 8px;
+    align-items: center;
+    background-color: aqua;
+}
+
+.soft-skills div p{
+    margin-left: 8px;
 }
