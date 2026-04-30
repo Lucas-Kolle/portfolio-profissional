@@ -1,9 +1,9 @@
 /*Paltea de cores do portifolio*/
 :root{
-    --primary-color:#D7263D;
-    --secundary-color:#0B0F14;
-    --tertiary-color: blue;
-    --quaternary-color:yellow;
+    --primary-color:#0F0F0F;
+    --secundary-color:#1F1F1F;
+    --details-color: #7C3AED;
+    --secundary-details-color:#5B21B6;
 }
 
 header{
