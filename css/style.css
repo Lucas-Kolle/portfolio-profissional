@@ -2,6 +2,7 @@
 :root{
     --primary-color:#0F0F0F;
     --secundary-color:#1F1F1F;
+    --tertyary-color:#2e2e2e;
     --primary-details-color: #7C3AED;
     --secundary-details-color:#5b21b6;
     --tertyary-details-color:#A78BFA;
@@ -109,13 +110,14 @@ header nav a:hover{
 
 .sobre{
     height: 100vh;
-    background-color: rgb(145, 19, 19);
+    background-color: var(--secundary-color);
 }
 
 .sobre h3{
     text-align: center;
     padding-top: 20vh;
     font-size: 8vh;
+    color: var(--secundary-details-color);
 }
 
 .sobre-mim{
@@ -124,19 +126,24 @@ header nav a:hover{
 }
 
 .descricao-pessoal{
-    background-color: antiquewhite;
+    background-color: var(--tertyary-color);
+    border-radius: 10px;
+    border: 1px solid #3b3b3b;
     width: 50vw;
+    margin-left: 25px;
 }
 
 .descricao-pessoal h4{
     text-align: center;
     font-size: 5vh;
+    color: rgb(214, 214, 214);
 }
 
 .descricao-pessoal p{
-    padding-top: 5vh;
+    padding-top: 4.3vh;
     font-size: 3.2vh;
     font-family: Lato, sans-serif;
+    color: rgb(214, 214, 214);
     margin-left: 15px;
 }
 
@@ -149,6 +156,7 @@ header nav a:hover{
 .skills h4{
     text-align: center;
     font-size: 5vh;
+    color: rgb(214, 214, 214);
 }
 
 .soft-skills{
