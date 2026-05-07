@@ -2,7 +2,7 @@
 :root{
     --primary-color:#0F0F0F;
     --secundary-color:#1F1F1F;
-    --tertyary-color:#2e2e2e;
+    --tertyary-color:#242424;
     --primary-details-color: #7C3AED;
     --secundary-details-color:#5b21b6;
     --tertyary-details-color:#A78BFA;
@@ -88,6 +88,11 @@ header nav a:hover{
     color: white;
 }
 
+.meu-trabalho:hover{
+    background-color: var(--secundary-details-color);
+    transition: 0.2s;
+}
+
 .entre-contato{
     background-color: var(--secundary-details-color);
     height: 12vh;
@@ -110,13 +115,14 @@ header nav a:hover{
 
 .sobre{
     height: 100vh;
-    background-color: var(--secundary-color);
+    background-color: var(--tertyary-color);
 }
 
 .sobre h3{
     text-align: center;
     padding-top: 20vh;
     font-size: 8vh;
+    font-family: Montserrat, sans-serif;
     color: var(--secundary-details-color);
 }
 
@@ -128,20 +134,22 @@ header nav a:hover{
 .descricao-pessoal{
     background-color: var(--tertyary-color);
     border-radius: 10px;
-    border: 1px solid #3b3b3b;
+    border: 1px solid #3f3f3f;
     width: 50vw;
+    height: 58vh;
     margin-left: 25px;
 }
 
 .descricao-pessoal h4{
     text-align: center;
     font-size: 5vh;
+    font-family: Montserrat, sans-serif;
     color: rgb(214, 214, 214);
 }
 
 .descricao-pessoal p{
     padding-top: 4.3vh;
-    font-size: 3.2vh;
+    font-size: 28px;
     font-family: Lato, sans-serif;
     color: rgb(214, 214, 214);
     margin-left: 15px;
@@ -156,6 +164,7 @@ header nav a:hover{
 .skills h4{
     text-align: center;
     font-size: 5vh;
+    font-family: Montserrat, sans-serif;
     color: rgb(214, 214, 214);
 }
 
@@ -173,10 +182,18 @@ header nav a:hover{
     height: 9vh;
     border-radius: 8px;
     align-items: center;
-    background-color: aqua;
+    background-color: var(--secundary-details-color);
+}
+
+.soft-skills div:hover{
+    border: 2.5px solid var(--secundary-details-color);
+    background-color: #531fa7;
+    transition: 0.3s;
 }
 
 .soft-skills div p{
+    font-family: Lato, sans-serif;
+    font-size: 24px;
     margin-left: 8px;
 }
 
@@ -185,19 +202,24 @@ header nav a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #a11e2f;
+    background-color: var(--secundary-color);
 }
 
 .habilidades h3{
     padding-top: 20vh;
     font-size: 7vh;
+    font-family: Montserrat, sans-serif;
+    color: var(--secundary-details-color);
 }
 
 .habilidades p{
     padding-top: 3vh;
-    width: 60vw;
+    width: 53vw;
     text-align: center;
-    font-size: 3.4vh;
+    font-family: Lato, sans-serif;
+    font-size: 2.5vh;
+    letter-spacing: 0.3px;
+    color: rgb(214, 214, 214);
 }
 
 .habilidade-tecnicas{
@@ -211,11 +233,12 @@ header nav a:hover{
 .habilidade-tecnicas div{
     height: 30vh;
     width: 15vw;
-    background-color: bisque;
-    border: 2px solid bisque;
+    background-color: var(--secundary-color);
+    border: 2px solid var(--tertyary-color);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .habilidade-tecnicas div:hover{
@@ -229,9 +252,13 @@ header nav a:hover{
     width: 8vw;
 }
 
+.habilidade-tecnicas div span{
+    color: rgb(214, 214, 214);
+}
+
 .projetos{
     height: 100vh;
-    background-color: #9e192a;
+    background-color: var(--tertyary-color);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -240,12 +267,14 @@ header nav a:hover{
 .projetos h3{
     padding-top: 20vh;
     font-size: 8vh;
+    font-family: Montserrat, sans-serif;
     text-align: center;
 }
 
 .projetos p{
     text-align: center;
     font-size: 3.8vh;
+    font-family: Lato, sans-serif;
     width: 50vw;
     padding-top: 5vh;
     padding-bottom: 5vh;
