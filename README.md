@@ -4,7 +4,7 @@
 Meu objetivo é criar uma landing page para meu portfólio profissional e apresentar minhas habilidades, projetos e experiências de forma clara e atrativa, fortalecendo minha presença digital. Além disso, busco facilitar o acesso ao meu trabalho para recrutadores e demonstrar, na prática, meus conhecimentos.
 
 ## 🖼️ Preview
-**Foto da Landing Page**
+![Preview da Home](./img/preview%20da%20pagina.png)
 
 ## ✨ Funcionalidades
 - Design responsivo 📱
